@@ -1,13 +1,13 @@
 import "./App.css";
-import { useEffect, useState } from "react";
 import FirstPage from "./components/FisrtPage";
-import Students from "./components/Students";
+import SecondPage from "./components/SecondPage";
 
 function App() {
   return (
     <div className="App">
       <div className="App-header">
         <FirstPage />
+        {/* <SecondPage /> */}
       </div>
     </div>
   );

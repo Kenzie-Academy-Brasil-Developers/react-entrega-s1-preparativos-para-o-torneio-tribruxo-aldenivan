@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
+import FilterHouse from "../FilterHouses";
 
 const Students = () => {
-  const [studens, setStudents] = useState([]);
+  const [students, setStudents] = useState([]);
 
   useEffect(() => {
     fetch("http://hp-api.herokuapp.com/api/characters/students")
@@ -10,7 +11,11 @@ const Students = () => {
       .catch((err) => console.log(err));
   }, []);
 
-  return <></>;
+  return (
+    <>
+      <FilterHouse students={students} />
+    </>
+  );
 };
 
 export default Students;
