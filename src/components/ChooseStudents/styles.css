@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  margin: 0 10px;
+}
+
+.name {
+  font-size: 1.6rem;
+}
+
+.house {
+  font-size: 1.3rem;
+}
