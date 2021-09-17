@@ -1,3 +1,4 @@
+import "./styles.css";
 import Students from "../Students";
 import ChooseStudents from "../ChooseStudents";
 
@@ -6,7 +7,9 @@ const SecondPage = ({ setIsChoose }) => {
     <>
       <Students />
       <ChooseStudents />
-      <button onClick={() => setIsChoose(false)}>Tente novamente</button>
+      <button onClick={() => setIsChoose(false)} className="replay">
+        Tente novamente
+      </button>
     </>
   );
 };
