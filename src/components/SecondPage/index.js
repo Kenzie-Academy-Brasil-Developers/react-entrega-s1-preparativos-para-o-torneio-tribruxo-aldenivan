@@ -1,12 +1,12 @@
 import Students from "../Students";
 import ChooseStudents from "../ChooseStudents";
 
-const SecondPage = () => {
+const SecondPage = ({ setIsChoose }) => {
   return (
     <>
       <Students />
       <ChooseStudents />
-      <button>Tente novamente</button>
+      <button onClick={() => setIsChoose(false)}>Tente novamente</button>
     </>
   );
 };
