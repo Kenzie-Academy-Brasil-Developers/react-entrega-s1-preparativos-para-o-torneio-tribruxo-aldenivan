@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+.containerFirst {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-size: 8rem;
+  font-family: "Italianno", cursive;
+  font-weight: 100;
+  text-shadow: 0 0 0.2em #87f, 0 0 0.2em #87f, 0 0 0.2em #87f;
+  margin: 10px 0;
+}
+
+.information {
+  margin: 15px 0;
+  font-size: 2rem;
+  font-family: "Gluten", cursive;
+  width: 60%;
+  padding: 0 15px;
+}
+
+.start {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 104, 202, 0.801);
+  font-weight: 700;
+  text-shadow: 0 0 0.2em rgb(158, 255, 119), 0 0 0.2em rgb(158, 255, 119);
+  font-family: "Rampart One", cursive;
+}
+
+.start:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px rgb(158, 255, 119),
+    0px 0px 29px 13px rgb(158, 255, 119, 0.93);
+  box-shadow: 0px 10px 13px -7px rgb(158, 255, 119),
+    0px 0px 29px 13px rgb(158, 255, 119, 0.93);
+}
